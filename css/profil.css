@@ -1,0 +1,90 @@
+/* mise en page */
+body{
+    margin:0;
+    padding:0;
+    background-image: url(banniere.png);
+    font-family:sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/* nav */
+header nav div{
+    text-align: center;
+    color:white;
+    /* background-color: lightgrey;
+    border: 1px solid black; */
+}
+header{
+    background-color: grey;
+}
+nav ul li{
+    width:96px;
+}
+nav ul li .menu{
+    display:none;
+}
+nav ul li:hover .menu{
+    display:inline;
+}
+.menu{
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    color:#000;
+}
+ul{
+    list-style:none;
+}
+/* main */
+section {
+    display: flex;
+    margin : 0;
+    padding: 10px;
+    height: auto;
+}
+
+aside {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+section p {
+    font-family: Verdana;
+    font-size: 20pt;
+    line-height: 20pt;
+    padding-top: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+
+article {
+    text-align:center;
+    font-size: 16pt;
+    margin-top: 100px;
+}
+/* footer */
+footer {
+    background-color: grey;
+    height:150px;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
+
+img {
+    margin-left: 15%;
+}
+
+.img2 {
+    width: 6%;
+    margin:0;
+}
+
+.img3 {
+    margin-left:20%;
+    width: 100px;
+}
