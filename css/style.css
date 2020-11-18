@@ -30,6 +30,7 @@ ul{
 }
 header nav ul li{
     width:96px;
+    display:flex;
 }
 .menu{
     text-align: left;
